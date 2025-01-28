@@ -6,6 +6,14 @@ const joinList = evt => {
     const email2 = $("#email_2").value;
     const firstName = $("#first_name").value;
  
+const userEntry = 
+    prompt("This is a test of the prompt method",100)
+
+let entryA = prompt("Enter any Value", 12345.6789);
+alert(entryA);
+entryA = parseINT(entryA);
+alert(entryA);
+
     // check user entries
     let isValid = true;
     if (email1 == "") { 
